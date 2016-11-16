@@ -8,17 +8,24 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController, UITextFieldDelegate{
+   
+    // Declares the text field outlets
+    @IBOutlet weak var textField1: UITextField!
+    
+    
+    //Instnatiates the classes for the classes that conform to the
+    //UITextFieldDelegate protocol
+    let zipcodedelegate = ZipCodeDelegate()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+    textField1.delegate = zipcodedelegate
+    
+    
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
 
 
 }

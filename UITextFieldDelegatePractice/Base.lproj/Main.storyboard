@@ -54,6 +54,9 @@
                             <constraint firstItem="o6e-d8-pVq" firstAttribute="top" secondItem="DnL-6m-uhA" secondAttribute="bottom" constant="31" id="nat-xp-rga"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="textField1" destination="xfh-xU-l95" id="Ggy-02-cod"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
