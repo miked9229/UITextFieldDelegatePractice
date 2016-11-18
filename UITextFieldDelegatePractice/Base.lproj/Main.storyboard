@@ -56,6 +56,7 @@
                     </view>
                     <connections>
                         <outlet property="textField1" destination="xfh-xU-l95" id="Ggy-02-cod"/>
+                        <outlet property="textField2" destination="DnL-6m-uhA" id="PaL-3c-RZz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
